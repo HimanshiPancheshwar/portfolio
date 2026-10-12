@@ -83,4 +83,3 @@ Within 1–2 minutes, your website will be live at:
 
 - **GitHub:** [@HimanshiPancheshwar](https://github.com/HimanshiPancheshwar)
 - **LinkedIn:** [himanshi-pancheshwar-85192b314](https://www.linkedin.com/in/himanshi-pancheshwar-85192b314/)
-- **Location:** Nagpur, Maharashtra, India
