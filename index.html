@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himanshi Pancheshwar | Data Analyst & Python Developer</title>
+  <meta name="description" content="Portfolio of Himanshi Pancheshwar - Data Analyst & Python Developer based in Nagpur, India. Specializing in Power BI, SQL, Python automation, and data insights.">
+  <meta name="keywords" content="Himanshi Pancheshwar, Data Analyst, Python Developer, Power BI, DAX, SQL, PostgreSQL, Portfolio, Nagpur">
+  <meta name="author" content="Himanshi Pancheshwar">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://himanshipancheshwar.github.io/portfolio/">
+  <meta property="og:title" content="Himanshi Pancheshwar | Data Analyst & Python Developer">
+  <meta property="og:description" content="Turning complex data into clear, actionable insights. Explore my Power BI models, Python automation systems, and analytical projects.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/295836921?v=4">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%200%22%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" id="nav-brand" aria-label="Himanshi Pancheshwar Homepage">
+        <span class="logo-badge">HP</span>
+        <span class="logo-text">Himanshi<span class="accent-dot">.</span>dev</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#highlights" class="nav-link">Highlights</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle-btn" class="icon-btn theme-toggle" aria-label="Toggle light and dark mode" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- GitHub Profile Quick Link -->
+        <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm nav-github-btn" id="header-github-link">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-toggle-btn" class="icon-btn mobile-menu-toggle" aria-label="Open mobile menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobile-drawer" class="mobile-drawer" aria-hidden="true">
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#highlights" class="mobile-nav-link">Highlights</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        <li class="mobile-nav-socials">
+          <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/himanshi-pancheshwar-85192b314/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-glow-bg" aria-hidden="true"></div>
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-pulse"></span>
+            <span>Open to Data Analyst &amp; Python Opportunities</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Himanshi Pancheshwar</span>
+          </h1>
+
+          <p class="hero-role">
+            Data Analyst <span class="role-divider">•</span> Python Developer <span class="role-divider">•</span> BI Specialist
+          </p>
+
+          <p class="hero-bio">
+            Turning complex data into clear, actionable insights. Learning, building, and delivering value every day with <strong>Python</strong>, <strong>SQL</strong>, and <strong>Power BI</strong>.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+              </svg>
+              <span>Nagpur, India</span>
+            </div>
+            <div class="meta-item">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5h-2v-2h2zm0-4h-2V7h2z"/>
+              </svg>
+              <span>IST (UTC +05:30)</span>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="hero-view-projects-btn">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="https://www.linkedin.com/in/himanshi-pancheshwar-85192b314/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="hero-linkedin-btn">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="#contact" class="btn btn-outline" id="hero-contact-btn">Get In Touch</a>
+          </div>
+        </div>
+
+        <!-- Profile Visual Card -->
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="visual-card-glass">
+              <div class="avatar-wrapper">
+                <img 
+                  src="https://avatars.githubusercontent.com/u/295836921?v=4" 
+                  alt="Himanshi Pancheshwar" 
+                  class="profile-avatar"
+                  onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Himanshi+Pancheshwar&background=0284c7&color=fff&size=260';"
+                  id="profile-avatar-img"
+                >
+                <div class="avatar-status-badge" title="Focusing on data projects">
+                  <span>🎯 Focusing</span>
+                </div>
+              </div>
+
+              <div class="visual-info">
+                <h3 class="visual-name">Himanshi Pancheshwar</h3>
+                <p class="visual-tagline">Data Analyst &amp; Python Enthusiast</p>
+              </div>
+
+              <!-- Quick Stats Counter Row -->
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <span class="stat-number" data-target="4">4+</span>
+                  <span class="stat-label">Core Projects</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number" data-target="100">100%</span>
+                  <span class="stat-label">Data Focused</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-number" data-target="3">3+</span>
+                  <span class="stat-label">Tech Domains</span>
+                </div>
+              </div>
+
+              <div class="visual-pill-tags">
+                <span class="pill-tag">#PowerBI</span>
+                <span class="pill-tag">#Python</span>
+                <span class="pill-tag">#SQL</span>
+                <span class="pill-tag">#DAX</span>
+                <span class="pill-tag">#EDA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Data &amp; Decision Making</h2>
+          <p class="section-subtitle">A passion for transforming raw information into reliable models, automated workflows, and compelling visual stories.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card card">
+            <h3>My Philosophy</h3>
+            <p>
+              I believe that behind every dataset lies an impactful narrative waiting to be revealed. My analytical journey is driven by curiosity, structured thinking, and a hands-on commitment to building reproducible data solutions.
+            </p>
+            <p>
+              Whether it's designing a high-performance <strong>Star Schema</strong> with intricate DAX measures, building an end-to-end <strong>Python job scraping &amp; normalization pipeline</strong> backed by PostgreSQL, or performing exploratory data analysis on real-world datasets, I focus on data integrity, clarity, and practical business impact.
+            </p>
+            
+            <div class="about-details-list">
+              <div class="detail-item">
+                <span class="detail-icon">📍</span>
+                <div>
+                  <strong>Location:</strong>
+                  <p>Nagpur, Maharashtra, India</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">🎓</span>
+                <div>
+                  <strong>Interests:</strong>
+                  <p>Data Analytics, Business Intelligence, Python Automation, Machine Learning</p>
+                </div>
+              </div>
+              <div class="detail-item">
+                <span class="detail-icon">💡</span>
+                <div>
+                  <strong>Methodology:</strong>
+                  <p>Star Schema, Modular Code, Context Transition, Automated ETL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-cards-col">
+            <div class="feature-card card">
+              <div class="feature-icon-wrapper bi-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div>
+                <h4>Business Intelligence &amp; Power BI</h4>
+                <p>Designing robust dimension-fact relationships, custom composite keys, and advanced DAX formulas (time intelligence, context transitions, semi-additive measures).</p>
+              </div>
+            </div>
+
+            <div class="feature-card card">
+              <div class="feature-icon-wrapper py-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4>Python &amp; Data Engineering</h4>
+                <p>Writing clean, production-style scripts for API consumption, web scraping, regex extraction, data normalization, and PostgreSQL transactions.</p>
+              </div>
+            </div>
+
+            <div class="feature-card card">
+              <div class="feature-icon-wrapper sql-icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <h4>Relational Database &amp; SQL</h4>
+                <p>Architecting normalized database schemas, enforcing unique constraints, foreign keys, and executing multi-table joins for analytical aggregation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Tech Stack</span>
+          <h2 class="section-title">Skills &amp; Technical Capabilities</h2>
+          <p class="section-subtitle">The tools, languages, and frameworks I use to convert raw data into business intelligence.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Category: Languages -->
+          <div class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">💻</div>
+              <h3>Languages &amp; Querying</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-badge"><span class="badge-dot"></span>Python (Pandas, NumPy)</li>
+              <li class="skill-badge"><span class="badge-dot"></span>SQL (PostgreSQL)</li>
+              <li class="skill-badge"><span class="badge-dot"></span>DAX (Data Analysis Expressions)</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Power Query (M)</li>
+              <li class="skill-badge"><span class="badge-dot"></span>HTML5 &amp; CSS3</li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: BI & Analytics -->
+          <div class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">📊</div>
+              <h3>BI &amp; Data Analytics</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-badge"><span class="badge-dot"></span>Power BI Desktop</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Star Schema &amp; Data Modeling</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Interactive Dashboard Design</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Exploratory Data Analysis (EDA)</li>
+              <li class="skill-badge"><span class="badge-dot"></span>KPI &amp; Metrics Benchmarking</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Microsoft Excel (Pivots, Formulas)</li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Engineering & Tools -->
+          <div class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">⚙️</div>
+              <h3>Tools &amp; Infrastructure</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-badge"><span class="badge-dot"></span>Git &amp; GitHub Version Control</li>
+              <li class="skill-badge"><span class="badge-dot"></span>PostgreSQL &amp; pgAdmin</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Jupyter Notebooks</li>
+              <li class="skill-badge"><span class="badge-dot"></span>REST APIs Integration</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Web Scraping (SerpAPI, Exa)</li>
+              <li class="skill-badge"><span class="badge-dot"></span>VS Code &amp; Environments</li>
+            </ul>
+          </div>
+
+          <!-- Skill Category: Core Competencies -->
+          <div class="skill-category-card card">
+            <div class="category-header">
+              <div class="category-icon">🎯</div>
+              <h3>Core Competencies</h3>
+            </div>
+            <ul class="skill-pill-list">
+              <li class="skill-badge"><span class="badge-dot"></span>Data Cleaning &amp; Normalization</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Time Intelligence Calculations</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Filter Context Manipulation</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Market Intelligence Extraction</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Analytical Problem Solving</li>
+              <li class="skill-badge"><span class="badge-dot"></span>Data Visualization Best Practices</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Projects &amp; Case Studies</h2>
+          <p class="section-subtitle">Real-world applications spanning data engineering, Power BI business modeling, and statistical analysis.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filters" role="tablist" aria-label="Filter Projects">
+          <button class="filter-btn active" data-filter="all" id="filter-all-btn">All Projects</button>
+          <button class="filter-btn" data-filter="bi" id="filter-bi-btn">Power BI &amp; DAX</button>
+          <button class="filter-btn" data-filter="python" id="filter-python-btn">Python &amp; Engineering</button>
+          <button class="filter-btn" data-filter="analytics" id="filter-analytics-btn">Data Analytics</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-container">
+          
+          <!-- Project 1: DAX Data Model & Power BI -->
+          <article class="project-card card" data-category="bi" id="project-card-powerbi">
+            <div class="project-top">
+              <div class="project-category-tag">Power BI &amp; BI</div>
+              <div class="project-links">
+                <a href="https://github.com/HimanshiPancheshwar/Power-BI-Practice" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View DAX Power BI project code on GitHub" title="View Repository">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">DAX Data Model &amp; Advanced Analytics</h3>
+            <p class="project-desc">
+              Enterprise retail &amp; inventory analytics model built on a Star Schema. Implements advanced DAX, row-context to filter-context transition using CALCULATE, custom composite keys, and semi-additive inventory metrics.
+            </p>
+
+            <div class="project-highlights-box">
+              <span class="highlight-item">⭐ Star Schema Architecture</span>
+              <span class="highlight-item">🔄 Semi-Additive Inventory (`LASTNONBLANK`)</span>
+              <span class="highlight-item">🌡️ Temperature Key Enrichment</span>
+            </div>
+
+            <div class="project-tags">
+              <span class="tech-tag">Power BI</span>
+              <span class="tech-tag">DAX</span>
+              <span class="tech-tag">Star Schema</span>
+              <span class="tech-tag">Data Modeling</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-modal="modal-powerbi">
+                View Architecture
+              </button>
+              <a href="https://github.com/HimanshiPancheshwar/Power-BI-Practice" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                GitHub Repo →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Job Intelligence Scraper -->
+          <article class="project-card card" data-category="python" id="project-card-scraper">
+            <div class="project-top">
+              <div class="project-category-tag">Python &amp; Engineering</div>
+              <div class="project-links">
+                <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View Job Scraper repository" title="View Repository">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Job Intelligence Scraper &amp; Matcher</h3>
+            <p class="project-desc">
+              A production-style Python application utilizing SerpAPI and Exa API for job aggregation, regex-based skill extraction, deduplication, and transactional storage in PostgreSQL with match scoring.
+            </p>
+
+            <div class="project-highlights-box">
+              <span class="highlight-item">⚡ PostgreSQL Transactions</span>
+              <span class="highlight-item">🧠 Skill Extraction Engine</span>
+              <span class="highlight-item">📊 Aggregated Analytics Reporting</span>
+            </div>
+
+            <div class="project-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">SerpAPI</span>
+              <span class="tech-tag">ETL &amp; Regex</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-modal="modal-scraper">
+                View Architecture
+              </button>
+              <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                View Code →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: USA States Financial Analysis -->
+          <article class="project-card card" data-category="analytics" id="project-card-financial">
+            <div class="project-top">
+              <div class="project-category-tag">Data Analytics</div>
+              <div class="project-links">
+                <a href="https://github.com/HimanshiPancheshwar/Usa-States-Financial-Analysis" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View USA Financial Analysis on GitHub" title="View Repository">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">USA States Financial Analysis</h3>
+            <p class="project-desc">
+              Comprehensive financial data exploration investigating regional revenue structures, state expenditures, deficits, and trends through Pandas data cleaning and statistical visualizations.
+            </p>
+
+            <div class="project-highlights-box">
+              <span class="highlight-item">📈 Fiscal Trends &amp; Revenue</span>
+              <span class="highlight-item">🧹 Missing Value Imputation</span>
+              <span class="highlight-item">📊 Multivariate Visual Analysis</span>
+            </div>
+
+            <div class="project-tags">
+              <span class="tech-tag">Jupyter</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">Financial EDA</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-modal="modal-financial">
+                View Highlights
+              </button>
+              <a href="https://github.com/HimanshiPancheshwar/Usa-States-Financial-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                GitHub Repo →
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4: University Analysis -->
+          <article class="project-card card" data-category="analytics" id="project-card-university">
+            <div class="project-top">
+              <div class="project-category-tag">Data Analytics</div>
+              <div class="project-links">
+                <a href="https://github.com/HimanshiPancheshwar/University_Analysis" target="_blank" rel="noopener noreferrer" class="icon-link" aria-label="View University Analysis on GitHub" title="View Repository">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Higher Education &amp; University Analytics</h3>
+            <p class="project-desc">
+              Exploratory analysis evaluating higher education benchmarks, institutional performance factors, admissions trends, and demographic variables with actionable data storytelling.
+            </p>
+
+            <div class="project-highlights-box">
+              <span class="highlight-item">🏫 Institutional Benchmarking</span>
+              <span class="highlight-item">📉 Correlation Analysis</span>
+              <span class="highlight-item">🎯 Insight Extraction</span>
+            </div>
+
+            <div class="project-tags">
+              <span class="tech-tag">Jupyter</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">EDA</span>
+              <span class="tech-tag">Data Storytelling</span>
+            </div>
+
+            <div class="project-footer">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-modal="modal-university">
+                View Highlights
+              </button>
+              <a href="https://github.com/HimanshiPancheshwar/University_Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                GitHub Repo →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights & Workflow Section -->
+    <section class="section highlights-section" id="highlights">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">How I Work</span>
+          <h2 class="section-title">End-to-End Analytical Process</h2>
+          <p class="section-subtitle">A structured methodology that guarantees accurate data models and impactful business dashboards.</p>
+        </div>
+
+        <div class="workflow-grid">
+          <div class="workflow-card card">
+            <div class="step-badge">01</div>
+            <h4>Ingest &amp; Extract</h4>
+            <p>Gather data across REST APIs, web scrapers, SQL databases, or raw CSVs. Validate schema types and handle rate limits.</p>
+          </div>
+
+          <div class="workflow-card card">
+            <div class="step-badge">02</div>
+            <h4>Clean &amp; Normalize</h4>
+            <p>Eliminate duplicates, impute missing values, standardize text representations, and design relational tables with proper integrity.</p>
+          </div>
+
+          <div class="workflow-card card">
+            <div class="step-badge">03</div>
+            <h4>Model &amp; Compute</h4>
+            <p>Construct Star Schemas with 1-to-many relationships. Write performant DAX/SQL measures for period-over-period and KPI metrics.</p>
+          </div>
+
+          <div class="workflow-card card">
+            <div class="step-badge">04</div>
+            <h4>Visualize &amp; Deliver</h4>
+            <p>Synthesize findings into clean, interactive Power BI reports and notebooks that empower decision-makers to take fast action.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box card">
+          <div class="contact-content">
+            <span class="section-tag">Let's Connect</span>
+            <h2 class="contact-heading">Ready to discuss data opportunities?</h2>
+            <p class="contact-desc">
+              I am actively seeking roles in <strong>Data Analysis</strong>, <strong>Business Intelligence</strong>, and <strong>Python Analytics</strong>. Whether you have a project, an opening, or want to collaborate on data solutions, I'd love to hear from you.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-card">
+                <span class="method-icon">💼</span>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <a href="https://www.linkedin.com/in/himanshi-pancheshwar-85192b314/" target="_blank" rel="noopener noreferrer" class="method-link">
+                    linkedin.com/in/himanshi-pancheshwar-85192b314
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <span class="method-icon">🐙</span>
+                <div>
+                  <strong>GitHub</strong>
+                  <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer" class="method-link">
+                    github.com/HimanshiPancheshwar
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <span class="method-icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <span class="method-link text-dim">Nagpur, Maharashtra, India</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Copy Info Row -->
+            <div class="quick-connect-actions">
+              <a href="https://www.linkedin.com/in/himanshi-pancheshwar-85192b314/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="connect-linkedin-btn">
+                Connect on LinkedIn →
+              </a>
+              <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="connect-github-btn">
+                Explore GitHub Repos
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Detail Modals -->
+  <!-- Modal 1: Power BI -->
+  <div class="modal-backdrop" id="modal-powerbi" aria-hidden="true">
+    <div class="modal-dialog card">
+      <div class="modal-header">
+        <h3>DAX Data Model &amp; Advanced Analytics</h3>
+        <button class="icon-btn close-modal-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Architecture Highlights:</h4>
+        <p>This project models enterprise-level retail and sales operations by combining transaction data (<code>Internet Sales</code>) with inventory snapshots (<code>Product Inventory</code>) and rich dimension hierarchies.</p>
+        <ul class="modal-list">
+          <li><strong>Star Schema Design:</strong> Centralized fact tables connected via 1-to-many relationships to Customer, Product, Sales Territory, Date, and Temperature dimensions.</li>
+          <li><strong>Filter Context Transition:</strong> Utilizing <code>CALCULATE</code>, <code>REMOVEFILTERS</code>, and boolean criteria to generate benchmark metrics regardless of slicer states.</li>
+          <li><strong>Semi-Additive Calculations:</strong> Solving non-aggregatable inventory metrics over time with <code>LASTNONBLANK</code> and <code>PARALLELPERIOD</code>.</li>
+          <li><strong>Custom Composite Keys:</strong> Dynamically linking regional temperature fluctuations to sales performance using composite relationship keys.</li>
+        </ul>
+        <div class="modal-tags">
+          <span class="tech-tag">Power BI</span>
+          <span class="tech-tag">DAX</span>
+          <span class="tech-tag">Star Schema</span>
+          <span class="tech-tag">Time Intelligence</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/HimanshiPancheshwar/Power-BI-Practice" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          Visit GitHub Repository →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Job Scraper -->
+  <div class="modal-backdrop" id="modal-scraper" aria-hidden="true">
+    <div class="modal-dialog card">
+      <div class="modal-header">
+        <h3>Job Intelligence Scraper &amp; Matcher</h3>
+        <button class="icon-btn close-modal-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Architecture Highlights:</h4>
+        <p>A production-style Python application for automated job market intelligence extraction and candidate matching.</p>
+        <ul class="modal-list">
+          <li><strong>Dual API Ingestion:</strong> Ingests live job postings across SerpAPI Google Jobs and Exa API engines.</li>
+          <li><strong>Data Normalization:</strong> Sanitizes messy JSON payloads into standardized internal relational formats.</li>
+          <li><strong>Automated Skill Extraction:</strong> Parses raw descriptions to identify tech stacks (Python, PostgreSQL, AWS, Docker, Git).</li>
+          <li><strong>PostgreSQL Atomicity:</strong> Transactional updates across companies, search history, and job listings with <code>UNIQUE(job_url)</code> deduplication.</li>
+          <li><strong>Candidate Match Scoring:</strong> Computes algorithmic compatibility score: <code>(matched_skills / required_skills) * 100</code>.</li>
+        </ul>
+        <div class="modal-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">SerpAPI</span>
+          <span class="tech-tag">Regex</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          Visit GitHub Profile →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Financial Analysis -->
+  <div class="modal-backdrop" id="modal-financial" aria-hidden="true">
+    <div class="modal-dialog card">
+      <div class="modal-header">
+        <h3>USA States Financial Analysis</h3>
+        <button class="icon-btn close-modal-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Methodology &amp; Insights:</h4>
+        <p>Analyzed multi-year state government financial data to uncover trends in revenue generation, municipal debt, and functional expenditure allocation.</p>
+        <ul class="modal-list">
+          <li><strong>Data Wrangling:</strong> Cleaned complex tabular records, imputed missing historical fields, and computed per-capita metrics.</li>
+          <li><strong>Visual Analytics:</strong> Generated distribution plots, correlation heatmaps, and ranking comparisons across states.</li>
+          <li><strong>Key Findings:</strong> Pinpointed key revenue dependencies and expenditure trends across education, infrastructure, and healthcare sectors.</li>
+        </ul>
+        <div class="modal-tags">
+          <span class="tech-tag">Jupyter</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Data Visualization</span>
+          <span class="tech-tag">Financial Modeling</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/HimanshiPancheshwar/Usa-States-Financial-Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          Visit GitHub Repository →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: University Analysis -->
+  <div class="modal-backdrop" id="modal-university" aria-hidden="true">
+    <div class="modal-dialog card">
+      <div class="modal-header">
+        <h3>Higher Education &amp; University Analytics</h3>
+        <button class="icon-btn close-modal-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Methodology &amp; Insights:</h4>
+        <p>Exploratory data analysis uncovering institutional performance indicators, demographic distributions, and academic metrics.</p>
+        <ul class="modal-list">
+          <li><strong>Statistical Summaries:</strong> Evaluated student-to-faculty ratios, tuition structures, and graduation rate drivers.</li>
+          <li><strong>Correlation Modeling:</strong> Uncovered key relationships between institutional resource allocation and student success rates.</li>
+          <li><strong>Actionable Findings:</strong> Summarized conclusions through publication-ready charts and clear statistical narratives.</li>
+        </ul>
+        <div class="modal-tags">
+          <span class="tech-tag">Jupyter</span>
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">EDA</span>
+          <span class="tech-tag">Data Analytics</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com/HimanshiPancheshwar/University_Analysis" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+          Visit GitHub Repository →
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">HP<span class="accent-dot">.</span></span>
+        <p class="footer-copy">
+          &copy; 2026 Himanshi Pancheshwar. Built for GitHub Pages.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="https://github.com/HimanshiPancheshwar" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/himanshi-pancheshwar-85192b314/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="btn btn-ghost btn-sm back-to-top" id="back-to-top-btn" aria-label="Back to top">
+          Back to Top ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
